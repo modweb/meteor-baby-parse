@@ -1,7 +1,7 @@
 Package.describe({
   name: 'modweb:baby-parse',
   summary: 'A fast, reliable CSV parser based on PapaParse',
-  version: '0.4.3',
+  version: '0.4.3_1',
   git: 'https://github.com/modweb/meteor-baby-parse'
 });
 
