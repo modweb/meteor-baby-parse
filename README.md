@@ -2,6 +2,13 @@
 
 Meteor package of Rich Harris' [BabyParse](https://github.com/Rich-Harris/BabyParse) node package (v0.4.3).
 
+Note, to use `parseFiles` you must use an absolute file path:
+
+```
+filePath = process.env.PWD + "/test.csv";
+parsed = Baby.parseFiles(filePath);
+```
+
 *README copied from BabyParse*
 
 - - -
